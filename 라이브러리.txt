@@ -1,0 +1,7 @@
+챗봇을 돌리기위한 라이브러리2개
+
+pip install openai
+
+pip install streamlit
+
+.streamlit/secrets.toml 생성 후 OPENAI_API_KEY secrets.toml에 저장
