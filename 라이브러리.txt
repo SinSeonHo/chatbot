@@ -4,4 +4,10 @@ pip install openai
 
 pip install streamlit
 
+가상환경에 설치된 모든 라이브러리를 requirements.txt 로 작성
+pip freeze > requirements.txt
+
+requirements에 있는 모든 라이브러리를 설치하기
+pip install -r requirements.txt
+
 .streamlit/secrets.toml 생성 후 OPENAI_API_KEY secrets.toml에 저장
